@@ -20,5 +20,6 @@ void main (void)
 
      }
      printf("\Suma: %.2f", sum);
-     printf("\nPromedio: %.2f", sum/i);
+     printf("\nPromedio: %.2f"
+            , sum/i);
 }
