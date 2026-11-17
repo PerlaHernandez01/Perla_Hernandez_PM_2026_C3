@@ -5,7 +5,7 @@ void promedio (FILE *);
 void main (void)
 {
     FILE *ar;
-    if ((ar=fopen("arc.txt", "r")) != NULL)
+    if ((ar=fopeni("arc.txt", "r")) != NULL)
     {
         promedio(ar);
         fclose(ar);
